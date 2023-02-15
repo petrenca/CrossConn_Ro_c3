@@ -1,0 +1,30 @@
+item_number,old_item_name,item_name,sentence_intro,sentence_guess,sentence_outcome2,disjunction_type,outcome,type,condition,imgur_intro,imgur_guess,imgur_outcome,sentence_outcome1
+1,d1,d1,Laura a decis să înceapă o grădină.,"Va planta fie un portocal, fie un măr.",She planted an apple and a cherry tree.,complex,adhoc,test_item,target,d1.intro.JPG,0.guess.jpg,d1.adhoc.jpg,Uite ce s-a întâmplat:
+2,d2,d2,Ioana vrea să decoreze peretele.,"Va atârna fie un afiș, fie un ceas.",She only put up a clock.,complex,only one,test_item,control_true,d2.intro.jpg,0.guess.jpg,d2.one.jpg,Uite ce s-a întâmplat:
+3,d3,d3,Tudor trebuie să meargă la piață.,"Va cumpăra fie un pepene, fie un dovleac.",He bought grapes.,complex,neither,test_item,control_false,d3.intro.JPG,0.guess.jpg,d3.neither.jpg,Uite ce s-a întâmplat:
+4,d4,d4,Bogdan caută în cutia lui de jucării.,"Se va juca fie cu o mașină, fie cu o barcă.",He played with a plane and a boat. ,complex,adhoc,test_item,target,d4.adhocV2.intro.jpg,0.guess.jpg,d4.adhocV2.jpg,Uite ce s-a întâmplat:
+5,d5,d5,Mihai și-a plănuit o plimbare.,"Își va pune fie o pălărie, fie o eșarfă.",He only put on a scarf.,complex,only one,test_item,control_true,d5.intro.JPG,0.guess.jpg,d5.one.jpg,Uite ce s-a întâmplat:
+6,d6,d6,Oscar merge la niste prieteni.,"Va aduce fie o prăjitură, fie chipsuri.",He brought a bottle. ,complex,neither,test_item,control_false,d6.intro.JPG,0.guess.jpg,d6.neither.jpg,Uite ce s-a întâmplat:
+7,d7,d7,Ramona merge la un magazin de animale.,"Va cumpăra fie o pasăre, fie un iepure.",She bought a rabbit and a fish. ,complex,adhoc,test_item,target,d7.adhocV2.intro.jpg,0.guess.jpg,d7.adhocV2.jpg,Uite ce s-a întâmplat:
+8,d8,d8,Gabi vrea să se relaxeze în seara asta.,"Va tricota fie un fular, fie șosete.",He only knitted a scarf.,complex,only one,test_item,control_true,d8.intro.JPG,0.guess.jpg,d8.one.jpg,Uite ce s-a întâmplat:
+9,d9,d9,Maria comandă mâncare la telefon.,"Va comanda fie o supă, fie o salată.",She ordered pizza. ,complex,neither,test_item,control_false,d9.intro.jpg,0.guess.jpg,d9.neither.jpg,Uite ce s-a întâmplat:
+10,new,f1,Rona organizează un târg de vechituri.,Va face mulți bani.,unclear,filler,unclear,filler_item,target,f1.intro.jpg,0.guess.jpg,f1.unclear.jpg,Uite ce s-a întâmplat:
+11,q2,f2,În seara asta vine o tornadă.,Va dărâma niște copaci.,correct,filler,correct,filler_item,control_true,f2.intro.jpg,0.guess.jpg,f2.correct.jpg,Uite ce s-a întâmplat:
+12,new,f3,Paul s-a hotărât să meargă la culcare.,Va face ordine înainte de culcare.,incorrect,filler,incorrect,filler_item,control_false,f3.intro.jpg,0.guess.jpg,f3.incorrect.jpg,Uite ce s-a întâmplat:
+13,new,f4,Vera are pălării decorative pentru petrecere.,Oaspeților le vor plăcea pălăriile.,unclear,filler,unclear,filler_item,target,f4.intro.jpg,0.guess.jpg,f4.unclear.jpg,Uite ce s-a întâmplat:
+14,new,f5,Nicu face supă pentru cină.,Va mânca singur.,correct,filler,correct,filler_item,control_true,f5.intro.jpg,0.guess.jpg,f5.correct.jpg,Uite ce s-a întâmplat:
+15,new,f6,Este o zi frumoasă afară.,Plaja va fi plină de lume.,incorrect,filler,incorrect,filler_item,control_false,f6.intro.jpg,0.guess.jpg,f6.incorrect.jpg,Uite ce s-a întâmplat:
+16,new,f7,Liliana se mută din apartamentul ei comun.,Își va lua tablourile preferate.,unclear,filler,unclear,filler_item,target,f7.adhocV2.intro.jpg,0.guess.jpg,f7.adhocV2.unclear.jpg,Uite ce s-a întâmplat:
+17,new,f8,Marta vrea să facă o baie cu spumă.,Va aprinde lumânările.,correct,filler,correct,filler_item,control_true,f8.intro.jpg,0.guess.jpg,f8.correct.jpg,Uite ce s-a întâmplat:
+18,new,f9,Carmen a făcut gustări pentru fiul ei.,El le va încerca cu plăcere.,incorrect,filler,incorrect,filler_item,control_false,f9.intro.jpg,0.guess.jpg,f9.incorrect.jpg,Uite ce s-a întâmplat:
+19,n4,n1,Emilia merge la florărie.,Va cumpăra două plante.,She bought three plants. ,numeral,more than two,filler_item,target,n1.intro.JPG,0.guess.jpg,n1.more.JPG,Uite ce s-a întâmplat:
+20,n5,n2,Sofia vrea să facă curățenie în casă.,Va face curat în două camere.,She cleaned the bathroom and the kitchen.,numeral,two,filler_item,control_true,n2.intro.jpg,0.guess.jpg,n2.two.jpg,Uite ce s-a întâmplat:
+21,n6,n3,Elena concurează la Jocurile Olimpice.,Va câștiga două medalii.,She only won one medal.,numeral,less than two,filler_item,control_false,n3.intro.JPG,0.guess.jpg,n3.less.JPG,Uite ce s-a întâmplat:
+22,n7,n4,Anton vrea să meargă într-o excursie.,Va lua cu el două valize.,He brought four pieces of luggage.,numeral,more than two,filler_item,target,n4.intro.jpg,0.guess.jpg,n4.more.JPG,Uite ce s-a întâmplat:
+23,n8,n5,Adriana promovează o nouă piesă.,Va pune două afișe în hol.,She put up two of them,numeral,two,filler_item,control_true,n5.intro.JPG,0.guess.jpg,n5.two.jpg,Uite ce s-a întâmplat:
+24,n9,n6,Vlad merge la cumpărături în mall.,Va cumpăra două jachete.,He bought one jacket.,numeral,less than two,filler_item,control_false,n6.intro.JPG,0.guess.jpg,n6.less.jpg,Uite ce s-a întâmplat:
+25,n10,n7,Matei a primit o cutie cu bomboane.,Va mânca două bomboane din cutie.,He ate four.,numeral,more than two,filler_item,target,n7.intro.jpg,0.guess.jpg,n7.more.jpg,Uite ce s-a întâmplat:
+26,n11,n8,Verișoara Ioanei se căsătorește.,Ioana îi va duce două cadouri.,She brought two gifts. ,numeral,two,filler_item,control_true,n8.intro.JPG,0.guess.jpg,n8.two.jpg,Uite ce s-a întâmplat:
+27,n12,n9,Andrei lucrează la un adăpost pentru animale.,Va scoate doi câini la plimbare.,He only took one. ,numeral,less than two,filler_item,control_false,n9.intro.jpg,0.guess.jpg,n9.less.jpg,Uite ce s-a întâmplat:
+28,p1,p1,Irina s-a înscris la un curs de artă.,Va modela o sculptură la curs.,She painted a landscape. ,practice,practice,practice,practice_false,p1.intro.JPG,0.guess.jpg,p1.false.JPG,Uite ce s-a întâmplat:
+29,p2,p2,Daniel iubește să facă drumeții în munți.,Mâine va merge într-o drumeție.,He climbed a mountain.,practice,practice,practice,practice_true,p2.intro.jpg,0.guess.jpg,p2.true.JPG,Uite ce s-a întâmplat:
